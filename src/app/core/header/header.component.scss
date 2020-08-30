@@ -1,0 +1,48 @@
+@import "~src/app/shared/styles/colors";
+
+.navbar-spacer {
+  flex: 1 1 auto;
+}
+
+.sidenav-container {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.sidenav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.mat-sidenav {
+  margin-top: 56px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .sidenav {
+    width: 300px;
+  }
+  .mat-sidenav {
+    margin-top: 64px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

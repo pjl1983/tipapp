@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button (click)="sidenav.toggle()" aria-label="Toggles open menu">
+  <mat-icon>menu</mat-icon>
+  </button>
+  <span [routerLink]="['/']">Tip App</span>
+  <span class="navbar-spacer"></span>
+  <span>{{member?.firstName}} {{member?.lastName}}</span>
+  <mat-icon mat-icon-button >account_circle</mat-icon>
+</mat-toolbar>
+
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #sidenav mode="side" opened class="sidenav"
+               [fixedInViewport]="true" [opened]="false">
+  </mat-sidenav>
+</mat-sidenav-container>
